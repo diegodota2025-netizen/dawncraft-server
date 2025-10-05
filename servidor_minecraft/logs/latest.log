@@ -1,0 +1,26 @@
+2025-10-05 03:26:14,523 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.10, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --installServer]
+2025-10-05 03:26:14,535 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.7 by Microsoft
+2025-10-05 03:26:14,680 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/dawncraft-server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2025-10-05 03:26:14,738 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.loadFrom(52)[m: Configuration file /workspaces/dawncraft-server/servidor_minecraft/config/fml.toml is not correct. Correcting
+2025-10-05 03:26:14,751 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.lambda$loadFrom$0(54)[m: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+2025-10-05 03:26:15,218 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2025-10-05 03:26:17,674 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [--installServer]
+2025-10-05 03:26:18,080 [1;31mERROR[m [m[main][m [mn.m.s.Main.main(280)[m: Failed to start the minecraft server
+joptsimple.UnrecognizedOptionException: installServer is not a recognized option
+	at joptsimple.OptionException.unrecognizedOption(OptionException.java:108) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at joptsimple.OptionParser.handleLongOptionToken(OptionParser.java:510) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:56) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at joptsimple.OptionParser.parse(OptionParser.java:396) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at net.minecraft.server.Main.main(Main.java:128) ~[server-1.18.2-20220404.173914-srg.jar%2361!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:32) ~[fmlloader-1.18.2-40.3.10.jar%2357!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
+	at com.mohistmc.util.BootstrapLauncher.startServer(BootstrapLauncher.java:99) [mohist.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:104) [mohist.jar:1.18.2-dev]

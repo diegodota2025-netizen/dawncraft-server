@@ -1,0 +1,165 @@
+2025-10-05 03:26:14,523 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.10, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --installServer]
+2025-10-05 03:26:14,535 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.7 by Microsoft
+2025-10-05 03:26:14,550 [36mDEBUG[m [m[main][m [mc.m.m.LaunchServiceHandler.<init>(41)[m: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+2025-10-05 03:26:14,570 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.<init>(44)[m: Found naming services : [srgtomcp]
+2025-10-05 03:26:14,584 [36mDEBUG[m [m[main][m [mc.m.m.LaunchPluginHandler.<init>(58)[m: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
+2025-10-05 03:26:14,598 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(120)[m: Discovering transformation services
+2025-10-05 03:26:14,602 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(126)[m: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@64bc21ac
+2025-10-05 03:26:14,620 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(137)[m: Found transformer services : [mixin,fml]
+2025-10-05 03:26:14,620 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.loadTransformationServices(115)[m: Transformation services loading
+2025-10-05 03:26:14,621 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service mixin
+2025-10-05 03:26:14,621 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service mixin
+2025-10-05 03:26:14,622 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service fml
+2025-10-05 03:26:14,626 [36mDEBUG[m [m[main][m [mn.m.f.l.LauncherVersion.<clinit>(21)[m: Found FMLLauncher version 1.0
+2025-10-05 03:26:14,626 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(61)[m: FML 1.0 loading
+2025-10-05 03:26:14,626 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(63)[m: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+2025-10-05 03:26:14,627 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(75)[m: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+2025-10-05 03:26:14,627 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(87)[m: FML found EventBus version : 5.0.3+70+master.d7d405b
+2025-10-05 03:26:14,628 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(97)[m: Found Runtime Dist Cleaner
+2025-10-05 03:26:14,629 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(111)[m: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+2025-10-05 03:26:14,629 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(114)[m: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+2025-10-05 03:26:14,630 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(115)[m: Found ForgeSPI package specification 4
+2025-10-05 03:26:14,631 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service fml
+2025-10-05 03:26:14,632 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.processArguments(66)[m: Configuring option handling for services
+2025-10-05 03:26:14,638 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseTransformationServices(90)[m: Transformation services initializing
+2025-10-05 03:26:14,639 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service mixin
+2025-10-05 03:26:14,658 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@659a969b
+2025-10-05 03:26:14,680 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/dawncraft-server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2025-10-05 03:26:14,684 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Initialising Mixin Platform Manager
+2025-10-05 03:26:14,684 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-10-05 03:26:14,685 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-10-05 03:26:14,686 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-10-05 03:26:14,687 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-10-05 03:26:14,688 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-10-05 03:26:14,693 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service mixin
+2025-10-05 03:26:14,693 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service fml
+2025-10-05 03:26:14,693 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(62)[m: Setting up basic FML game directories
+2025-10-05 03:26:14,696 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing GAMEDIR directory : /workspaces/dawncraft-server/servidor_minecraft
+2025-10-05 03:26:14,697 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path GAMEDIR is /workspaces/dawncraft-server/servidor_minecraft
+2025-10-05 03:26:14,697 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(28)[m: Making MODSDIR directory : /workspaces/dawncraft-server/servidor_minecraft/mods
+2025-10-05 03:26:14,698 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(39)[m: Created MODSDIR directory : /workspaces/dawncraft-server/servidor_minecraft/mods
+2025-10-05 03:26:14,698 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path MODSDIR is /workspaces/dawncraft-server/servidor_minecraft/mods
+2025-10-05 03:26:14,698 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(28)[m: Making CONFIGDIR directory : /workspaces/dawncraft-server/servidor_minecraft/config
+2025-10-05 03:26:14,700 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(39)[m: Created CONFIGDIR directory : /workspaces/dawncraft-server/servidor_minecraft/config
+2025-10-05 03:26:14,700 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path CONFIGDIR is /workspaces/dawncraft-server/servidor_minecraft/config
+2025-10-05 03:26:14,700 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path FMLCONFIG is /workspaces/dawncraft-server/servidor_minecraft/config/fml.toml
+2025-10-05 03:26:14,700 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(64)[m: Loading configuration
+2025-10-05 03:26:14,738 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.loadFrom(52)[m: Configuration file /workspaces/dawncraft-server/servidor_minecraft/config/fml.toml is not correct. Correcting
+2025-10-05 03:26:14,751 [33mWARN [m [m[main][m [mn.m.f.l.FMLConfig.lambda$loadFrom$0(54)[m: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+2025-10-05 03:26:14,757 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(28)[m: Making default config directory directory : /workspaces/dawncraft-server/servidor_minecraft/defaultconfigs
+2025-10-05 03:26:14,757 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(39)[m: Created default config directory directory : /workspaces/dawncraft-server/servidor_minecraft/defaultconfigs
+2025-10-05 03:26:14,757 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(66)[m: Preparing ModFile
+2025-10-05 03:26:14,763 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(77)[m: Preparing launch handler
+2025-10-05 03:26:14,764 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(135)[m: Using forgeserver as launch service
+2025-10-05 03:26:14,789 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(158)[m: Received command line version data  : VersionInfo[forgeVersion=40.3.10, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+2025-10-05 03:26:14,792 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service fml
+2025-10-05 03:26:14,794 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(53)[m: Current naming domain is 'srg'
+2025-10-05 03:26:14,795 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(57)[m: Identified name mapping providers {}
+2025-10-05 03:26:14,795 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.runScanningTransformationServices(96)[m: Transformation services begin scanning
+2025-10-05 03:26:14,796 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service mixin
+2025-10-05 03:26:14,798 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service mixin
+2025-10-05 03:26:14,798 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service fml
+2025-10-05 03:26:14,798 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.beginScanning(85)[m: Initiating mod scan
+2025-10-05 03:26:14,813 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModListHandler.processModLists(54)[m: Found mod coordinates from lists: []
+2025-10-05 03:26:14,817 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModDiscoverer.<init>(45)[m: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
+2025-10-05 03:26:15,120 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(86)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+2025-10-05 03:26:15,124 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.3.10/fmlcore-1.18.2-40.3.10.jar
+2025-10-05 03:26:15,126 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.3.10/javafmllanguage-1.18.2-40.3.10.jar
+2025-10-05 03:26:15,128 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.3.10/lowcodelanguage-1.18.2-40.3.10.jar
+2025-10-05 03:26:15,129 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.3.10/mclanguage-1.18.2-40.3.10.jar
+2025-10-05 03:26:15,138 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.3.10/forge-1.18.2-40.3.10-universal.jar
+2025-10-05 03:26:15,145 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(86)[m: Found valid mod file forge-1.18.2-40.3.10-universal.jar with {forge} mods - versions {40.3.10}
+2025-10-05 03:26:15,176 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from server-1.18.2-20220404.173914-srg.jar, it does not contain dependency information.
+2025-10-05 03:26:15,177 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from forge-1.18.2-40.3.10-universal.jar, it does not contain dependency information.
+2025-10-05 03:26:15,177 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.18.2-40.3.10.jar, it does not contain dependency information.
+2025-10-05 03:26:15,178 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.18.2-40.3.10.jar, it does not contain dependency information.
+2025-10-05 03:26:15,178 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.18.2-40.3.10.jar, it does not contain dependency information.
+2025-10-05 03:26:15,178 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.18.2-40.3.10.jar, it does not contain dependency information.
+2025-10-05 03:26:15,218 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2025-10-05 03:26:15,222 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(86)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+2025-10-05 03:26:15,227 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+2025-10-05 03:26:15,230 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.3.10/forge-1.18.2-40.3.10-universal.jar
+2025-10-05 03:26:15,233 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(86)[m: Found valid mod file forge-1.18.2-40.3.10-universal.jar with {forge} mods - versions {40.3.10}
+2025-10-05 03:26:15,234 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/dawncraft-server/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.3.10/forge-1.18.2-40.3.10-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+2025-10-05 03:26:15,290 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+2025-10-05 03:26:15,291 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+2025-10-05 03:26:15,291 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+2025-10-05 03:26:15,292 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+2025-10-05 03:26:15,292 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_method.js
+2025-10-05 03:26:15,293 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_instanceof.js
+2025-10-05 03:26:15,296 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/add_bouncer_method.js
+2025-10-05 03:26:15,296 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/registry_object_binary_compat.js
+2025-10-05 03:26:15,321 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service fml
+2025-10-05 03:26:15,391 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.loadLanguageProviders(84)[m: Found 3 language providers
+2025-10-05 03:26:15,392 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider minecraft, version 1.0
+2025-10-05 03:26:15,402 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider lowcodefml, version 40
+2025-10-05 03:26:15,405 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider javafml, version 40
+2025-10-05 03:26:15,422 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(171)[m: Configured system mods: [minecraft, forge]
+2025-10-05 03:26:15,422 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: minecraft
+2025-10-05 03:26:15,433 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: forge
+2025-10-05 03:26:15,441 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(203)[m: Found 0 mod requirements (0 mandatory, 0 optional)
+2025-10-05 03:26:15,442 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(208)[m: Found 0 mod requirements missing (0 mandatory, 0 optional)
+2025-10-05 03:26:16,346 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseServiceTransformers(84)[m: Transformation services loading transformers
+2025-10-05 03:26:16,349 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service mixin
+2025-10-05 03:26:16,349 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service mixin
+2025-10-05 03:26:16,349 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service fml
+2025-10-05 03:26:16,350 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.transformers(132)[m: Loading coremod transformers
+2025-10-05 03:26:16,350 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_method.js
+2025-10-05 03:26:16,694 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-10-05 03:26:16,695 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_instanceof.js
+2025-10-05 03:26:16,786 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-10-05 03:26:16,787 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/add_bouncer_method.js
+2025-10-05 03:26:16,857 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-10-05 03:26:16,857 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/registry_object_binary_compat.js
+2025-10-05 03:26:16,901 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-10-05 03:26:16,913 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@106d77da to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+2025-10-05 03:26:16,914 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@f324455 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+2025-10-05 03:26:16,918 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3a894088 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+2025-10-05 03:26:16,919 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@370c1968 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+2025-10-05 03:26:16,920 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2f0bfe17 to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+2025-10-05 03:26:16,920 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3206174f to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+2025-10-05 03:26:16,920 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@42fb8c87 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+2025-10-05 03:26:16,922 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service fml
+2025-10-05 03:26:17,658 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2025-10-05 03:26:17,661 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2025-10-05 03:26:17,661 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(minecraft)
+2025-10-05 03:26:17,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+2025-10-05 03:26:17,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+2025-10-05 03:26:17,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+2025-10-05 03:26:17,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+2025-10-05 03:26:17,662 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2025-10-05 03:26:17,665 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(forge)
+2025-10-05 03:26:17,665 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+2025-10-05 03:26:17,666 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+2025-10-05 03:26:17,666 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+2025-10-05 03:26:17,667 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+2025-10-05 03:26:17,667 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2025-10-05 03:26:17,668 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: inject() running with 3 agents
+2025-10-05 03:26:17,669 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2025-10-05 03:26:17,669 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2025-10-05 03:26:17,670 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2025-10-05 03:26:17,674 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [--installServer]
+2025-10-05 03:26:17,766 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Error cleaning class output directory: .mixin.out
+2025-10-05 03:26:17,776 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Preparing mixins for MixinEnvironment[DEFAULT]
+2025-10-05 03:26:17,962 [36mDEBUG[m [m[main][m [mi.n.u.i.l.InternalLoggerFactory.useSlf4JLoggerFactory(63)[m: Using SLF4J as the default logging framework
+2025-10-05 03:26:17,968 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(129)[m: -Dio.netty.leakDetection.level: simple
+2025-10-05 03:26:17,970 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(130)[m: -Dio.netty.leakDetection.targetRecords: 4
+2025-10-05 03:26:18,080 [1;31mERROR[m [m[main][m [mn.m.s.Main.main(280)[m: Failed to start the minecraft server
+joptsimple.UnrecognizedOptionException: installServer is not a recognized option
+	at joptsimple.OptionException.unrecognizedOption(OptionException.java:108) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at joptsimple.OptionParser.handleLongOptionToken(OptionParser.java:510) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:56) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at joptsimple.OptionParser.parse(OptionParser.java:396) ~[jopt-simple-5.0.4.jar%2347!/:?]
+	at net.minecraft.server.Main.main(Main.java:128) ~[server-1.18.2-20220404.173914-srg.jar%2361!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:32) ~[fmlloader-1.18.2-40.3.10.jar%2357!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
+	at com.mohistmc.util.BootstrapLauncher.startServer(BootstrapLauncher.java:99) [mohist.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:104) [mohist.jar:1.18.2-dev]
